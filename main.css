@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+/* Header */
+
+header {
+	background: purple
+	
+}
+
+header h1{
+	
+	
+}
+
+body {
+	background:  #f9e5ff;
+	
+}
+
+
+.banner {
+	
+	height: 60px;
+	width:300px;
+	background:#f9e5ff;
+	color:purple;
+	margin:auto;
+	position: relative; 
+	-webkit-transition: background 1s
+}
+
+.banner h1 {
+	
+	font-family:helvetica;
+	font-size:50px;
+	/*color:purple; */
+	text-align:center;
+	-webkit-transition: color 1s
+}
+
+.banner:hover{
+	background:purple;
+	color:#f9e5ff;
+}
+
+
+
+img {
+	width: 350px;
+	height: 350px;
+	position:relative;
+	margin:auto;
+	
+	
+}
